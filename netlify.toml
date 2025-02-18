@@ -1,2 +1,5 @@
 [build]
-  functions = "functions"
+  functions = "functions"   # ระบุว่า Netlify จะใช้ฟังก์ชันที่อยู่ในโฟลเดอร์นี้
+
+[dev]
+  functions = "functions"   # หากคุณใช้คำสั่ง `netlify dev` สำหรับทดสอบในเครื่อง
